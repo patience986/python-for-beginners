@@ -10,6 +10,7 @@ print(1 * 3)
 exVar = 100
 print(exVar)
 
+'''
 # This section demonstrates a list and a for loop that iterates through its elements.
 exampleList = [1, 6, 7, 3, 6, 9, 0]
 for thing in exampleList:
@@ -58,4 +59,23 @@ print(x + y)
 
 
 def example():
-    pass
+    x=1
+    y=3
+    print(x+y)
+    if x<y:
+       print(x,"is less than",y)
+def main():
+    example()
+    '''
+
+def addition (num1,num2):
+    answer = num1 + num2
+    return answer
+
+# It looks like there might have been a slight indentation issue and an attempt to call the function inside its definition.
+# Here's how you would typically call and use the 'addition' function:
+result = addition(5, 6)
+print(result)
+
+# Or you could directly print the result:
+print(addition(10, 2))
