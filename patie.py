@@ -1,14 +1,14 @@
-print("hello world")
+'''print("hello world")
 print("concatenate" + "lion")
 print("hello", "there")
 print('he said "Hi"')
 print(1 + 3)
-print(1 - 3)
+print(1 - 3) 
 print(1 / 3)
 print(1 * 3)
 # variables
 exVar = 100
-print(exVar)
+print(exVar)'''
 
 '''
 # This section demonstrates a list and a for loop that iterates through its elements.
@@ -67,8 +67,7 @@ def example():
 def main():
     example()
     '''
-
-def addition (num1,num2):
+'''def addition (num1,num2):
     answer = num1 + num2
     return answer
 
@@ -78,4 +77,23 @@ result = addition(5, 6)
 print(result)
 
 # Or you could directly print the result:
-print(addition(10, 2))
+print(addition(10, 2))'''
+
+x = 6   
+def example():
+    z=5
+    print(z)
+
+    def example2():
+        z=7
+        print(z)
+        y=x+1
+        print(y)
+        return y
+        x = example2()
+
+        print(x)
+
+
+
+
