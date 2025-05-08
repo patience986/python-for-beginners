@@ -1,16 +1,15 @@
-'''print("hello world")
+print("hello world")
 print("concatenate" + "lion")
 print("hello", "there")
 print('he said "Hi"')
 print(1 + 3)
-print(1 - 3) 
+print(1 - 3)
 print(1 / 3)
 print(1 * 3)
 # variables
 exVar = 100
-print(exVar)'''
+print(exVar)
 
-'''
 # This section demonstrates a list and a for loop that iterates through its elements.
 exampleList = [1, 6, 7, 3, 6, 9, 0]
 for thing in exampleList:
@@ -59,27 +58,26 @@ print(x + y)
 
 
 def example():
-    x=1
-    y=3
-    print(x+y)
-    if x<y:
-       print(x,"is less than",y)
+    x = 1
+    y = 3
+    print(x + y)
+    if x < y:
+        print(x, "is less than", y)
 def main():
     example()
-    '''
-'''def addition (num1,num2):
-    answer = num1 + num2
-    return answer
+    '''def addition (num1,num2):
+     answer = num1 + num2
+     return answer
 
-# It looks like there might have been a slight indentation issue and an attempt to call the function inside its definition.
-# Here's how you would typically call and use the 'addition' function:
-result = addition(5, 6)
-print(result)
+    # It looks like there might have been a slight indentation issue and an attempt to call the function inside its definition.
+    # Here's how you would typically call and use the 'addition' function:
+    result = addition(5, 6)
+    print(result)
 
-# Or you could directly print the result:
-print(addition(10, 2))'''
+    # Or you could directly print the result:
+    print(addition(10, 2))'''
 
-x = 6   
+'''x = 6
 def example():
     z=5
     print(z)
@@ -92,8 +90,45 @@ def example():
         return y
         x = example2()
 
-        print(x)
+        print(x)'''
+'''variable = 55  # Corrected indentation here
+print (variable)'''
 
 
+writeMe = "example text"
+saveFile = open("example.txt", 'w')
+saveFile.write(writeMe)
+saveFile.close()
 
+appendme = 'some text'
+saveFile = open("exampleFile.txt", 'a')
+saveFile.write('\n')
+saveFile.write(appendme)
+saveFile.close()
+print(appendme)
 
+readMe = open('example.txt', 'r').read()
+print(readMe)
+
+readMe = open('exampleFile.txt', 'r').readlines()
+print(readMe)  # Changed readMe2 to readMe
+
+#classes.
+class calc:
+    def add(x,y):
+        answer =x+y
+        print(answer)
+    def sub(x,y):
+        answer =x-y
+        print(answer)
+    def mult(x,y):
+        answer =x*y
+        print(answer)
+    def div(x,y):
+        answer =x/y
+        print(answer)  
+
+        #statistics and modules
+
+        name  =input("what is your name")
+        print("hello",Patience)
